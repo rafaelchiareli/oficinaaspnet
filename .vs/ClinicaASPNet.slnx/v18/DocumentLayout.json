@@ -1,0 +1,150 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\chiar\\source\\repos\\ClinicaASPNet\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2B438FE4-00C4-521A-6829-E6F70E69B0E6}|ClinicaASPNet\\ClinicaASPNet.csproj|c:\\users\\chiar\\source\\repos\\clinicaaspnet\\clinicaaspnet\\controllers\\pacientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B438FE4-00C4-521A-6829-E6F70E69B0E6}|ClinicaASPNet\\ClinicaASPNet.csproj|solutionrelative:clinicaaspnet\\controllers\\pacientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B438FE4-00C4-521A-6829-E6F70E69B0E6}|ClinicaASPNet\\ClinicaASPNet.csproj|c:\\users\\chiar\\source\\repos\\clinicaaspnet\\clinicaaspnet\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B438FE4-00C4-521A-6829-E6F70E69B0E6}|ClinicaASPNet\\ClinicaASPNet.csproj|solutionrelative:clinicaaspnet\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B438FE4-00C4-521A-6829-E6F70E69B0E6}|ClinicaASPNet\\ClinicaASPNet.csproj|c:\\users\\chiar\\source\\repos\\clinicaaspnet\\clinicaaspnet\\views\\pacientes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2B438FE4-00C4-521A-6829-E6F70E69B0E6}|ClinicaASPNet\\ClinicaASPNet.csproj|solutionrelative:clinicaaspnet\\views\\pacientes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B438FE4-00C4-521A-6829-E6F70E69B0E6}|ClinicaASPNet\\ClinicaASPNet.csproj|c:\\users\\chiar\\source\\repos\\clinicaaspnet\\clinicaaspnet\\repositories\\pacienterepositorymemoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B438FE4-00C4-521A-6829-E6F70E69B0E6}|ClinicaASPNet\\ClinicaASPNet.csproj|solutionrelative:clinicaaspnet\\repositories\\pacienterepositorymemoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B438FE4-00C4-521A-6829-E6F70E69B0E6}|ClinicaASPNet\\ClinicaASPNet.csproj|c:\\users\\chiar\\source\\repos\\clinicaaspnet\\clinicaaspnet\\repositories\\ipacienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B438FE4-00C4-521A-6829-E6F70E69B0E6}|ClinicaASPNet\\ClinicaASPNet.csproj|solutionrelative:clinicaaspnet\\repositories\\ipacienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B438FE4-00C4-521A-6829-E6F70E69B0E6}|ClinicaASPNet\\ClinicaASPNet.csproj|c:\\users\\chiar\\source\\repos\\clinicaaspnet\\clinicaaspnet\\clinicaaspnet.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{2B438FE4-00C4-521A-6829-E6F70E69B0E6}|ClinicaASPNet\\ClinicaASPNet.csproj|solutionrelative:clinicaaspnet\\clinicaaspnet.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B438FE4-00C4-521A-6829-E6F70E69B0E6}|ClinicaASPNet\\ClinicaASPNet.csproj|c:\\users\\chiar\\source\\repos\\clinicaaspnet\\clinicaaspnet\\models\\paciente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B438FE4-00C4-521A-6829-E6F70E69B0E6}|ClinicaASPNet\\ClinicaASPNet.csproj|solutionrelative:clinicaaspnet\\models\\paciente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B438FE4-00C4-521A-6829-E6F70E69B0E6}|ClinicaASPNet\\ClinicaASPNet.csproj|c:\\users\\chiar\\source\\repos\\clinicaaspnet\\clinicaaspnet\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2B438FE4-00C4-521A-6829-E6F70E69B0E6}|ClinicaASPNet\\ClinicaASPNet.csproj|solutionrelative:clinicaaspnet\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\chiar\\source\\repos\\ClinicaASPNet\\ClinicaASPNet\\Program.cs",
+              "RelativeDocumentMoniker": "ClinicaASPNet\\Program.cs",
+              "ToolTip": "C:\\Users\\chiar\\source\\repos\\ClinicaASPNet\\ClinicaASPNet\\Program.cs",
+              "RelativeToolTip": "ClinicaASPNet\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-14T23:44:04.788Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\chiar\\source\\repos\\ClinicaASPNet\\ClinicaASPNet\\Views\\Pacientes\\Index.cshtml",
+              "RelativeDocumentMoniker": "ClinicaASPNet\\Views\\Pacientes\\Index.cshtml",
+              "ToolTip": "C:\\Users\\chiar\\source\\repos\\ClinicaASPNet\\ClinicaASPNet\\Views\\Pacientes\\Index.cshtml",
+              "RelativeToolTip": "ClinicaASPNet\\Views\\Pacientes\\Index.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABgAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-15T00:17:27.876Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PacientesController.cs",
+              "DocumentMoniker": "C:\\Users\\chiar\\source\\repos\\ClinicaASPNet\\ClinicaASPNet\\Controllers\\PacientesController.cs",
+              "RelativeDocumentMoniker": "ClinicaASPNet\\Controllers\\PacientesController.cs",
+              "ToolTip": "C:\\Users\\chiar\\source\\repos\\ClinicaASPNet\\ClinicaASPNet\\Controllers\\PacientesController.cs",
+              "RelativeToolTip": "ClinicaASPNet\\Controllers\\PacientesController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA0wBcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-14T23:50:25.893Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PacienteRepositoryMemoria.cs",
+              "DocumentMoniker": "C:\\Users\\chiar\\source\\repos\\ClinicaASPNet\\ClinicaASPNet\\Repositories\\PacienteRepositoryMemoria.cs",
+              "RelativeDocumentMoniker": "ClinicaASPNet\\Repositories\\PacienteRepositoryMemoria.cs",
+              "ToolTip": "C:\\Users\\chiar\\source\\repos\\ClinicaASPNet\\ClinicaASPNet\\Repositories\\PacienteRepositoryMemoria.cs",
+              "RelativeToolTip": "ClinicaASPNet\\Repositories\\PacienteRepositoryMemoria.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAIwBMAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-14T22:46:00.422Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IPacienteRepository.cs",
+              "DocumentMoniker": "C:\\Users\\chiar\\source\\repos\\ClinicaASPNet\\ClinicaASPNet\\Repositories\\IPacienteRepository.cs",
+              "RelativeDocumentMoniker": "ClinicaASPNet\\Repositories\\IPacienteRepository.cs",
+              "ToolTip": "C:\\Users\\chiar\\source\\repos\\ClinicaASPNet\\ClinicaASPNet\\Repositories\\IPacienteRepository.cs",
+              "RelativeToolTip": "ClinicaASPNet\\Repositories\\IPacienteRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-14T22:39:32.466Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ClinicaASPNet.csproj",
+              "DocumentMoniker": "C:\\Users\\chiar\\source\\repos\\ClinicaASPNet\\ClinicaASPNet\\ClinicaASPNet.csproj",
+              "RelativeDocumentMoniker": "ClinicaASPNet\\ClinicaASPNet.csproj",
+              "ToolTip": "C:\\Users\\chiar\\source\\repos\\ClinicaASPNet\\ClinicaASPNet\\ClinicaASPNet.csproj",
+              "RelativeToolTip": "ClinicaASPNet\\ClinicaASPNet.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-08-14T22:36:24.81Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Paciente.cs",
+              "DocumentMoniker": "C:\\Users\\chiar\\source\\repos\\ClinicaASPNet\\ClinicaASPNet\\Models\\Paciente.cs",
+              "RelativeDocumentMoniker": "ClinicaASPNet\\Models\\Paciente.cs",
+              "ToolTip": "C:\\Users\\chiar\\source\\repos\\ClinicaASPNet\\ClinicaASPNet\\Models\\Paciente.cs",
+              "RelativeToolTip": "ClinicaASPNet\\Models\\Paciente.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwA0AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-14T22:16:16.928Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\chiar\\source\\repos\\ClinicaASPNet\\ClinicaASPNet\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "ClinicaASPNet\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\chiar\\source\\repos\\ClinicaASPNet\\ClinicaASPNet\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "ClinicaASPNet\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABcAAAAAAAAAAAAUwBwAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-15T00:24:31.62Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
