@@ -85,5 +85,23 @@ namespace ClinicaASPNet.Controllers
               TempData["MensagemSucesso"] = "Paciente cadastrado com sucesso";
             return RedirectToAction("Index");
         }
+
+        [HttpGet]
+        public IActionResult Delete(int id)
+        {
+            var paciente = _repository.BuscarPorId(id);
+            if (paciente is null) return NotFound();
+            return View(paciente);
+        }
+
+        [HttpPost, ActionName("Delete")]
+        [ValidateAntiForgeryToken]
+        public IActionResult ConfirmarExclusao(int id)
+        {
+            if (!_repository.Excluir(id)) return NotFound();
+            TempData["MensagemSucesso"] = "Paciente excluído com sucesso";
+            return RedirectToAction("Index");
+
+         }
     }
 }
