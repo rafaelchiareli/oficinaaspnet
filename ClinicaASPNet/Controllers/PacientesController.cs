@@ -19,7 +19,7 @@ namespace ClinicaASPNet.Controllers
         public IActionResult Index(string? nome)
         {
             ViewBag.NomePesquisado = nome;
-            var pacientes = _repository.Listar();
+            var pacientes = _repository.Listar(nome);
             return View(pacientes);
         }
         [HttpGet]
@@ -84,6 +84,11 @@ namespace ClinicaASPNet.Controllers
             }
               TempData["MensagemSucesso"] = "Paciente cadastrado com sucesso";
             return RedirectToAction("Index");
+        }
+
+        public string RemoverEspacoes(string nome)
+        {
+            return nome.Trim();
         }
 
         [HttpGet]
