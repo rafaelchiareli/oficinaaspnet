@@ -1,10 +1,14 @@
+using ClinicaASPNet.Data;
 using ClinicaASPNet.Repositories;
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
-builder.Services.AddSingleton<IPacienteRepository, PacienteRepositoryMemoria>();
+
+builder.Services.AddDbContext<ClinicaDbContext> (options => options.UseSqlite(
+    builder.Configuration.GetConnectionString("ClinicaConnection")));
 
 var app = builder.Build();
 
@@ -25,7 +29,7 @@ app.MapStaticAssets();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}")
+    pattern: "{controller=Pacientes}/{action=Index}/{id?}")
     .WithStaticAssets();
 
 

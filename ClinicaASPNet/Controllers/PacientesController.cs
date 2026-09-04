@@ -1,4 +1,5 @@
-﻿using ClinicaASPNet.Models;
+﻿using ClinicaASPNet.Data;
+using ClinicaASPNet.Models;
 using ClinicaASPNet.Repositories;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Abstractions;
@@ -9,12 +10,15 @@ namespace ClinicaASPNet.Controllers
 {
     public class PacientesController : Controller
     {
-        private readonly IPacienteRepository _repository;
+        private readonly ClinicaDbContext _context;
+        private readonly RepositoryPaciente _repository;
 
-        public PacientesController(IPacienteRepository repository)
+        public PacientesController(ClinicaDbContext context)
         {
-            _repository = repository;
+            _context = context;
+            _repository = new RepositoryPaciente(context);
         }
+
         [HttpGet]
         public IActionResult Index(string? nome)
         {
@@ -25,7 +29,7 @@ namespace ClinicaASPNet.Controllers
         [HttpGet]
         public IActionResult Details(int id)
         {
-            var paciente = _repository.BuscarPorId(id);
+            var paciente = _repository.SelecionarPorId(id);
             if (paciente is null) return NotFound();
             return View(paciente);
         }
@@ -49,14 +53,14 @@ namespace ClinicaASPNet.Controllers
             {
                 return View(paciente);
             }
-            _repository.Adicionar(paciente);
+            _repository.Incluir(paciente);
             TempData["MensagemSucesso"] = "Paciente cadastrado com sucesso";
             return RedirectToAction("Index");
         }
 
         public IActionResult Edit(int id)
         {
-            var paciente = _repository.BuscarPorId(id);
+            var paciente = _repository.SelecionarPorId(id);
             if (paciente is null) return NotFound();
             return View(paciente);  
         }
@@ -78,10 +82,7 @@ namespace ClinicaASPNet.Controllers
             {
                 return View(paciente);
             }
-            if (!_repository.Atualizar(paciente))
-            {
-                return NotFound();
-            }
+           
               TempData["MensagemSucesso"] = "Paciente cadastrado com sucesso";
             return RedirectToAction("Index");
         }
@@ -94,7 +95,7 @@ namespace ClinicaASPNet.Controllers
         [HttpGet]
         public IActionResult Delete(int id)
         {
-            var paciente = _repository.BuscarPorId(id);
+            var paciente = _repository.SelecionarPorId(id);
             if (paciente is null) return NotFound();
             return View(paciente);
         }
@@ -103,7 +104,16 @@ namespace ClinicaASPNet.Controllers
         [ValidateAntiForgeryToken]
         public IActionResult ConfirmarExclusao(int id)
         {
-            if (!_repository.Excluir(id)) return NotFound();
+            var paciente = _repository.SelecionarPorId(id);
+            if (paciente != null)
+            {
+
+                _repository.Excluir(paciente);
+            }
+            else
+            {
+                return NotFound();
+            }
             TempData["MensagemSucesso"] = "Paciente excluído com sucesso";
             return RedirectToAction("Index");
 
