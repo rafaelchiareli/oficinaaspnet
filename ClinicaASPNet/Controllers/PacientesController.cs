@@ -1,6 +1,7 @@
 ﻿using ClinicaASPNet.Data;
 using ClinicaASPNet.Models;
 using ClinicaASPNet.Repositories;
+using ClinicaASPNet.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Abstractions;
 using System.IO.Pipelines;
@@ -20,11 +21,13 @@ namespace ClinicaASPNet.Controllers
         }
 
         [HttpGet]
-        public IActionResult Index(string? nome)
+        public async Task<IActionResult> Index(string? nome)
         {
+            var listaPacientesVM = await PacienteViewModel.ListarTodos(_context);          
+            
             ViewBag.NomePesquisado = nome;
             var pacientes = _repository.Listar(nome);
-            return View(pacientes);
+            return View(listaPacientesVM);
         }
         [HttpGet]
         public IActionResult Details(int id)
@@ -42,18 +45,28 @@ namespace ClinicaASPNet.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult Create(Paciente paciente)
+        public IActionResult Create(PacienteViewModel pacienteVM)
         {
-            if (_repository.CpfJaCadastrado(paciente.Cpf))
+            if (_repository.CpfJaCadastrado(pacienteVM.Cpf))
             {
-                ModelState.AddModelError(nameof(paciente.Cpf), "Ja existe um paciente" +
+                ModelState.AddModelError(nameof(pacienteVM.Cpf), "Ja existe um paciente" +
                     "cadastrado com esse CPF");
             }
             if (ModelState.IsValid == false)
             {
-                return View(paciente);
+                return View(pacienteVM);
             }
+
+            var paciente = new Paciente()
+            {
+                Cpf = pacienteVM.Cpf,
+                DataNascimento = pacienteVM.DataNascimento,
+                Nome = pacienteVM.Nome,
+                Telefone = pacienteVM.Telefone
+            };
             _repository.Incluir(paciente);
+
+
             TempData["MensagemSucesso"] = "Paciente cadastrado com sucesso";
             return RedirectToAction("Index");
         }

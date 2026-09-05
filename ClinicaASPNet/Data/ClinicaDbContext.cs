@@ -9,6 +9,8 @@ namespace ClinicaASPNet.Data
         {
 
         }
+      
+        
 
         public DbSet<Paciente> Pacientes => Set<Paciente>();
         public DbSet<Profissional> Profissionais => Set<Profissional>();
