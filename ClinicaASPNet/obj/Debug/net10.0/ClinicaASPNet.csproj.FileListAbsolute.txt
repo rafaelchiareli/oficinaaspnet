@@ -633,7 +633,6 @@ C:\Users\chiar\source\repos\ClinicaASPNet\ClinicaASPNet\obj\Debug\net10.0\static
 C:\Users\chiar\source\repos\ClinicaASPNet\ClinicaASPNet\obj\Debug\net10.0\staticwebassets.development.json
 C:\Users\chiar\source\repos\ClinicaASPNet\ClinicaASPNet\obj\Debug\net10.0\staticwebassets.build.endpoints.json
 C:\Users\chiar\source\repos\ClinicaASPNet\ClinicaASPNet\obj\Debug\net10.0\swae.build.ex.cache
-C:\Users\chiar\source\repos\ClinicaASPNet\ClinicaASPNet\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
 C:\Users\chiar\source\repos\ClinicaASPNet\ClinicaASPNet\obj\Debug\net10.0\ClinicaA.CAAD123E.Up2Date
 C:\Users\chiar\source\repos\ClinicaASPNet\ClinicaASPNet\obj\Debug\net10.0\ClinicaASPNet.dll
 C:\Users\chiar\source\repos\ClinicaASPNet\ClinicaASPNet\obj\Debug\net10.0\refint\ClinicaASPNet.dll
