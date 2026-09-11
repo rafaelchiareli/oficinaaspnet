@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ClinicaASPNet")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+509075d315306c76324a279fdd15ae61d7cbe415")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1834c7bb79ccafba7491702ed2490f8778efa4b3")]
 [assembly: System.Reflection.AssemblyProductAttribute("ClinicaASPNet")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ClinicaASPNet")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
