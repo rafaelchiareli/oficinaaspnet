@@ -639,3 +639,4 @@ C:\Users\chiar\source\repos\ClinicaASPNet\ClinicaASPNet\obj\Debug\net10.0\refint
 C:\Users\chiar\source\repos\ClinicaASPNet\ClinicaASPNet\obj\Debug\net10.0\ClinicaASPNet.pdb
 C:\Users\chiar\source\repos\ClinicaASPNet\ClinicaASPNet\obj\Debug\net10.0\ClinicaASPNet.genruntimeconfig.cache
 C:\Users\chiar\source\repos\ClinicaASPNet\ClinicaASPNet\obj\Debug\net10.0\ref\ClinicaASPNet.dll
+C:\Users\chiar\source\repos\ClinicaASPNet\ClinicaASPNet\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt

@@ -43,12 +43,23 @@ namespace ClinicaASPNet.Services
             var especialidade = new Especialidade()
             {
                 Descricao = especialidadeVM.Descricao,
-                Nome = especialidadeVM.Nome,    
-                
+                Nome = especialidadeVM.Nome,
+
             };
-            await _repository.IncluirAsync(especialidade));
+            await _repository.IncluirAsync(especialidade);
         }
 
+        public async Task EditarAsync(EspecialidadeViewModel especialidadeVM)
+        {
+            var especialidade = new Especialidade()
+            {
+                Descricao = especialidadeVM.Descricao,
+                Nome = especialidadeVM.Nome,
+                Id = especialidadeVM.Id
+            };
+
+            await _repository.AlterarAsync(especialidade);
+        }
 
 
 
